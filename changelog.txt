@@ -1,0 +1,387 @@
+= 5.2.7 =
+* Template changes to improve image display on various devices
+
+= 5.2.6 =
+* Rename woocommerce_inactive_notice() to avoid conflicts
+* Testing with WC 7.1
+
+= 5.2.5 =
+* Fix - test for correct class_exists( 'The_Gift_Wrapper') in woocommerce-gift-wrapper.php line 84
+* Fix - remove trunk/ folder which somehow made its way into the plugin package
+* Tweak - remove output buffering
+
+= 5.2.4 =
+* Patch - missing file: includes/class-gift-wrapper.php
+
+= 5.2.3 =
+* Better checks to make sure WooCommerce is active before Gift Wrapper loads
+
+= 5.2.2 =
+* Required PHP version (7.2) changed to match that of WooCommerce
+* Testing with WooCommerce 6.8
+* remove deprecated jQuery from gift-wrapper-admin.js
+
+= 5.2.1 =
+* $display must be type (array) in class-gift-wrapper-admin-notices.php:103
+
+= 5.2 =
+* Testing with Wordpress 6.0 and WC 6.5
+* "Plus" feature added: hide textarea if textarea limit is 0 in settings
+* Language updates
+* Restore CTA - thank you for your support!
+
+= 5.1.4 =
+* Testing with PHP 8.1, WC 6.4, readme update
+* Fix possible issues with FR and DE .po files
+
+= 5.1.3 =
+* Rename constants GWPLUS_VERSION -> GIFTWRAPPER_VERSION, GWPLUS_PLUGIN_DIR -> GIFTWRAPPER_PLUGIN_DIR, and GWPLUS_PLUGIN_BASE_FILE -> GIFTWRAPPER_PLUGIN_BASE_FILE to avoid conflicts with paid version
+* Update paid upgrade links to point to www.giftwrapper.app
+
+= 5.1.2 =
+* More careful variable type checks inside class-gift-wrapper-wrapping.php is_wrap(), also check for $post object in class-gift-wrapper-settings-product.php product_write_panel_tab()
+
+= 5.1.1 =
+* Minor change to giftwrap-list.php template to make sure wrap added when only one product offered
+
+= 5.1 =
+* More careful sanitization, checks of DB output (much was done in previous release)
+* Sanitize note textarea as textarea to preserve line breaks
+* Prevent possible loop in page load during wrap addition
+* Correct admin URL in setup_error_notice()
+* Merge class-gift-wrapper-settings-product.php is_wrap() with class-gift-wrapper-wrapping.php is_wrap()
+* Prelim handling for wrap products which are set to be "sold individually" (needs work)
+
+= 5.0 =
+* Plugin re-naming: WooCommerce Gift Wrapper is now called GIFT WRAPPER
+* Security updates - chiefly escaping output inside templates, but also no JS inlining
+* Use future-safe `wc_get_products()` instead of `get_posts` to gather wrap products. This forces breaking changes to templates.
+* Mirror settings in plus version: WooCommerce tabs instead of sub-sections (easier to find settings)
+* Plus settings on display (but not used) to help users see what paid upgrade offers
+* Restore CTA and replace "buymeacoffee" link with PayPal.me/littlepackage link - thank you for your support!
+* Update Bootstrap CSS from v5.1.3
+* Update 3rd party Modal Vanilla script
+
+= 4.5.3 - 24 January 2022 =
+* Testing with recent versions of WP and WC
+* Minify slideout JS file
+
+= 4.5.2 - 15 December 2021 =
+* Stated compatibility with WP 5.6 (same as WooCommerce); however, repair so backwards compatible with WP 4.9
+* Upon AJAX 'remove_from_cart' remove wrap prompt when cart empty or only wrap in cart
+* Testing with WC 5.9
+
+= 4.5.1 - 15 October 2021 =
+* Stop nonce check on every cart/checkout page load, use only with certain $_POST values
+* Translation updates
+
+= 4.5 - 4 October 2021 =
+* Fix for use with Gutenberg editor while using 'giftwrap_exclude_virtual_products' filter, involves
+  moving hooked functions from 'init' to 'wp' (later firing)
+* Fix - nonces added to frontend forms
+* Renew nag
+
+= 4.4.10 - 28 September 2021 =
+* Testing with WC 5.7. WooCommerce requires PHP version 7.0, and so therefor so does this plugin.
+* Testing with WP 5.8
+= 4.4.9 - 13 September 2021 =
+* Testing with WC 5.6
+
+= 4.4.8 - 11 August 2021 =
+* Testing with WP 5.8
+
+= 4.4.7 - 1 July 2021 =
+* Minor tweak in classes/wcgw-admin-notices: use printf not sprintf
+* Testing with WC 5.4
+
+= 4.4.6 - 3 March 2021 =
+* Do not show non-purchasable or out-of-stock wraps when showing wrap lists
+* Testing with WP 5.7
+
+= 4.4.5 - 12 February 2021 =
+* Testing with WC 5.0
+* Remove bad link in settings page - free users do not get per-product settings page oops
+* Add 'woocommerce-gift-wrapper' textdomain to WP Language directory - localized
+
+= 4.4.4 - 25 December 2020 =
+* Tweak - get_posts() arg changed from to 'posts_per_page' to 'numberposts' & 'no_found_rows' added for speed
+
+= 4.4.3 - 1 December 2020 =
+* Fix - recover template changes lost in 4.4.2
+* Tweak - suppress_filters set to true if not WPML
+
+= 4.4.2 - 27 November 2020 =
+* Tweak - return to using instantiated var $wrapping as instance of class Gift_Wrapper_Wrapping
+
+= 4.4.1 - 24 November 2020 =
+* Fix - textdomain wrong in templates/wcgwp/giftwrap-list.php
+
+= 4.4 - 23 November 2020 =
+* Fix - correct textdomain in several files, was 'woocommerce-gift-wrapper-plus' should be 'woocommerce-gift-wrapper'
+* Feature - allow some HTML to be saved for the Gift Wrap Details field
+* Feature/Tweak - Incorporate a vanilla Modal script instead of Bootstrap to cut down on theme conflicts
+* Feature/Tweak - For UX, make image of wrap next to radio button clickable if not already a link to product
+* Feature/Tweak - for slideToggle wrap display, show "Cancel" prompt instead of constant "Add gift wrap?"
+* Tweak - One wcgwp template deprecated but will continue to work: templates/wcgwp/giftwrap-list-cart.php
+	Its replacement - templates/wcgwp/giftwrap-list.php - especially affords more stylistic control of both the open toggle and submit buttons
+* Tweak - Make plugin instructions more clear on settings page
+* Tweak - esc_url() on wrapping image URLs
+* Tweak - Set DB options autoload = false
+* Tweak - make sure frontend jQuery is enqueued when scripts needed
+* Tweak - update Bootstrap CSS from 4.0 to 4.5.3
+* Tweak - increase z-index on modal pane
+* Tweak - Refresh CTA because only two people loved me
+* Testing with WooCommerce 4.7
+
+= 4.3.1 - Oct 25 2020 =
+* Tweak to three templates to add filter 'wcgwp_add_wrap_message' for changing screen text: modal.php and giftwrap-list-cart.php
+* Reverse order of changelog per request; archive some of it.
+* Remove deprecated/unused templates (coupon-header.php and coupon.php)
+* WooCommerce testing to version 4.6
+
+= 4.3 - Oct 6 2020 =
+* Compatibility with WPML
+* Domain Path in readme.txt maybe missing opening slash /
+* Add instruction to readme.txt for WPML users wanting to translate the elusive "Details" string
+* Reinstate nag because nobody loves me
+
+= 4.2.5 - Sept 18 2020 =
+* Readme.txt changes
+
+= 4.2.4 - Sept 16 2020 =
+* Same as 4.2.3
+
+= 4.2.3 - Sept 16 2020 =
+* Fix - Do not echo button text before 'wcgwp_add_wrap_button_text' filter runs
+
+= 4.2.2 - Aug 5 2020 =
+* Tweak - Rename options for less chance of DB conflict
+* Tweak - Leave no trace (delete all DB options on plugin uninstall) option added
+* Testing with WP version 5.5
+
+= 4.2.1 - July 31 2020 =
+* Tweak - CTA for free users, this plugin may or may not be sustainable without your support
+
+= 4.2 - July 1 2020 =
+* Feature - 'wcgwp_add_wrap_prompt' and 'wcgwp_add_wrap_button_text' filters added to gift wrap prompt and button
+* Tweak - remove use of anonymous function for gift wrap placements in cart and checkout areas
+* Testing with WC 4.2.2
+
+= 4.1.2 - May 6 2020 =
+* Tweak - default selected gift wrap set if more than one selection, so that no empty $_POST value sent
+* Testing with WP 5.4.1
+* Testing with WC 4.1
+
+= 4.1.1 - April 9 2020 =
+* Testing with WP 5.4
+* Testing with WC 4.0.1
+* Update POT file
+
+= 4.1 = January 20 2020 =
+* What happened?
+
+= 4.0.5 - December 15 2019 =
+* Fix - Required WP version moved from 4.0 to 4.9
+
+= 4.0.4 - December 8 2019 =
+* Fix - Order meta replace 'wcgwp_note' with "Note" on order confirmation / admin order pages
+
+= 4.0.3 - December 4 2019 =
+* Fix - remove unnecessary "#" action from line item wrap forms (in templates)
+* Fix - add Post/Redirect/Get to peri-cart/peri-checkout wrapping so wrap is not added back to cart after delete + page refresh
+* Tweak - Woocommerce order item meta stored in key value 'wcgwp_note' - consistent with Plus version of plugin
+* Tweak - Update readme.txt to reflect changed and new hooks in use
+* Update translation files
+
+= 4.0.2 - November 22 2019 =
+* Fix: Stripslashes for customer input
+* Testing with WooCommerce 3.8
+
+= 4.0.1 - October 3 2019 =
+* Fix: After checkout positioned wrap not correctly added to cart d/t $_POST values not being caught
+* Fix: Slideout after checkout conflicting with before checkout position - ensure both work
+
+= 4.0 - September 29 2019 =
+* Feature: 'wcgwp_remove_cod_gateway' boolean filter hook in case COD not wanted with wrap in cart/order
+* Feature: add "after checkout" location for gift wrap prompts
+* Fix: check if $terms before proceeding with foreach in check_item_for_giftwrap_cat method
+* Fix: if admin doesn't want to show wrap link in cart, also don't show it on order confirmation page
+* Tweak: If detect Bootstrap modal already, don't load it again
+* Tweak: Remove redundant use of 'woocommerce_add_cart_item_data' hook
+* Tweak: Use new Woo action hooks to move wrap outside cart form, negating need for templates modal-coupon.php and modal-coupon-header.php
+* Tweak: Add sanitization (replacing _e with esc_html_e where appropriate) throughout
+* Tweak: add "none" selection for multiselect on cart/checkout settings page, as default (no location desired)
+* Tweak: error notice for if admin hasn't set wrap category yet
+* Update translation files
+* Testing with WooCommerce 3.7
+
+= 3.0.5 - July 11 2019 =
+* Tweak: Also hide cart item product link for giftwrapping if linking turned off in Wrapper settings
+* Testing with WooCommerce 3.6.5
+
+= 3.0.4 - February 22 2019 =
+* Fix: boolean filter hook ('wcgwp_hide_details') provision added for folks who may have left "Giftwrap Details" setting blank.
+
+= 3.0.3 - February 22 2019 =
+* Tweak: fallback for difficult-to-translate "Giftwrap Details" string - now a string parseable by gettext if settings option left blank
+
+= 3.0.2 - January 10 2019 =
+* Fix: add english translation (en_US.po) files for WPML
+
+= 3.0.1 - January 6 2019 =
+* Fix: wp option 'giftwrap_product_link' erroneously used instead of 'giftwrap_link' to reference giftwrap options
+* Fix: language file naming fix so translation will show, esp German; POT updated
+* Tweak: only pass 3 arguments (of 4) to add_cart_item_data for cross-plugin compatibility
+* Tweak: CSS improvements for slideouts and modals
+
+= 3.0 - January 3 2019 =
+* Feature: Popup/modal now shows in all hooked locations, and with all themes
+* Feature: Customer note shows on order confirmation page and in order confirmation emails (confirming!)
+* Feature: Templating system to allow developers to further tweak Gift Wrap displays
+* Feature: When more than one giftwrap, allow user to set more than one note and not overwrite existing notes
+* Tweak: Bootstrap JS update, other JS split into templates and conditionally loaded
+
+= 2.4 October 19 2018 =
+* Tweak: discontinue use of WC sessions to determine if wrapping is in cart
+* Fix: preventDefault in JS to fix page scrolling on click of #
+* Fix: stripslashes() for gift wrapping notes
+* Feature: Allow different giftwraps with different customer notes in cart at same time
+
+= 2.3.1 April 25 2018 =
+* Fix: Allow more giftwrap to be added whenever there is no giftwrap in cart
+
+= 2.3 March 22 2018 =
+* Filter hook added to remove gift wrapping if cart full of virtual products only ('giftwrap_exclude_virtual_products')
+* Hide .woocommerce-info box if only one gift wrap allowed and it's already in cart
+
+= 2.2 March 21 2018 =
+* Feature: Provisional WPML support
+* .woocommerce-info box moved outside Gift Wrapper div for better theme compatibility
+* Plugin uninstall function moved to OOP and cleaned up
+
+= 2.1.1 January 1 2018 =
+* Feature: Woocommerce version check support
+
+= 2.1 December 25 2017 =
+* Feature: German translation, thank you @daDirtyD
+
+= 2.0.7 December 12 2017 =
+* Feature: 'wcgiftwrap_change_thumbnail' filter hook to change thumbnail image size in cart display
+
+= 2.0.6 November 21 2017 =
+* Fix: Do not show out-of-stock gift wrap items
+* Fix: JS naming conflict between above cart and below checkout slide-out and modal where below checkout modal not working
+* Fix: WC sessions cleared after order complete
+
+= 2.0.5 August 19 2017 =
+* Feature: Option to add gift wrap before cart added, thank you @Sotnas
+* Feature: Portuguese translation added
+
+= 2.0.4 June 14 2017 =
+* Fix: Translation strings not translating when set within variable.
+* Feature: Readme.txt edited to further explain how to translate/edit plugin text strings.
+
+= 2.0.3 April 27 2017 =
+* Fix: Provision for smart folks who don't want to upgrade to Woo 3.0 yet
+
+= 2.0.2 April 21 2017 =
+* Fix: Don't access order properties directly in /classes/class-gift-wrapper-admin.php
+
+= 2.0.1 March 31 2017 =
+* Fix: Correct text domain to match plugin slug for l18n
+
+= 2.0 March 31 2017 =
+* Feature: Woo 3.0 ready
+* Feature: move toward correct WP l18n, rather than user-created strings (plugin still accept/use strings saved in previous versions)
+* Fix: <form> tags for modal below cart
+* Fix: Duplicate div IDs "wc-giftwrap" in cart
+* Fix: Duplicate radio IDs in modals (if two used in cart)
+* Tweak: Escaping and sanitizing code
+* Tweak: Code revised/evolved, Gema75 copyright updated
+
+= 1.4 March 16 2017 =
+* Fix: Omit open and closing &lt;form&gt; tags on modal and embedded gift wrap forms
+* Fix: only run JS console once if two gift wrap locations on page
+* Feature: Add gift wrap notes to WooCommerce Thank You page.
+* Tweak: Closer to Avada modals working (not complete)
+* Tweak: Move settings and admin functions into their own class files
+
+= 1.3.3 January 3 2017 =
+* Feature: Russian translation by @Balya ( http://webkit.pro/ )
+* Feature: Added rough Spanish translation back in
+* Feature: Woocommerce 2.7 ready
+* Feature: Delete DB options on plugin uninstall
+* Fix: accessing Product object directly throws warnings (line 370 woocommerce-gift-wrapper.php)
+
+= 1.3.2 November 30 2016 =
+* Fix: Text domain use string not variable
+
+= 1.3.1 October 28 2016 =
+* Fix: Minor PHP error thrown
+
+= 1.3.0 October 28 2016 =
+* Feature: Gift wrapping options now on Checkout page
+* Feature: Put gift wrapping prompts in one, or more than one place
+* Feature: More CSS tags for Cart page
+* Fix: CSS clear:both for textarea header
+* Full Avada compatability with a bootstrap modal form is near-impossible. Dropping support for now.
+
+= 1.2.9 September 29 2016 =
+* Feature: Textarea MAXLENGTH setting
+* Fix: Modal compatibility with Avada theme (e.g. not load Bootstrap twice; still problems with DOM)
+
+= 1.2.8 August 5 2016 =
+* Further simple CSS fixes for Divi and Avada theme, others (future plans to fix Bootstrap conflict with Avada theme)
+
+= 1.2.7 August 1 2016 =
+* Checks for compatibility with WP 4.6
+* Style and script changes for Divi theme
+* Update Bootstrap modal to version 3.3.7
+* Make modal accessible
+
+= 1.2.6 June 7 2016 =
+* Increased z-index on popup modal to help with theme/plugin conflicts
+
+= 1.2.5 June 4 2016 =
+* Checks for compatibility with WP 4.5.2, WC 2.5.5
+
+= 1.2.4 December 21 2015 =
+* CSS fix for modal (pop-up) in cart - textarea label display
+
+= 1.2.3 December 11 2015 =
+* Checks for WP 4.4
+* Option to add more than one gift wrap product to cart
+
+= 1.2.2 December 6 2015 =
+* Frontend accessibility improvements
+
+= 1.2.1 November 8 2015 =
+* CSS fixes (remove Bootstrap general CSS)
+* Modal product listing fixes
+* Settings link from plugin page
+
+= 1.2.0 August 12 2015 =
+* Wordpress 4.3 ready
+* Fixed JS and modal issues (modal was clipped when page was scrolled, JS now loaded in footer)
+* JS dialog option when replacing wrapping already in cart
+* User notes added below Product name in cart for customer reassurance
+* Woocommerce version < 2.2.2 support removed
+* Spanish and French translations
+
+= 1.1.0 January 13 2014 =
+* Finished l10n install
+* Added in copyright/fork notice for Gema75
+* Modal view in cart
+
+= 1.0.3 December 2 2014 =
+* Now compatible with versions of WC < 2.2.2
+* Minor CSS fix
+
+= 1.0.2 November 6 2014 =
+* Removed setting to hide gift wrap from catalog as it was potentially disruptive if category was set wrong
+
+= 1.0.1 November 6 2014 =
+* Clarifications on settings page to help prevent users making the wrong category invisible; multi-select may need to be removed.
+
+= 1.0 October 29 2014 =
+* Initial release

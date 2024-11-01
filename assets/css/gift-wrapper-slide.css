@@ -1,0 +1,70 @@
+.gift-wrapper-cancel {
+	display: none;
+}
+
+.wc-giftwrap .wcgwp_slideout {
+	display: none;
+	margin-bottom: 3em;
+}
+
+.wc-giftwrap {
+	font-size: 90%;
+}
+
+.giftwrap_header_wrapper {
+	margin: 0 0 1em;
+}
+
+.giftwrap_before_cart,.giftwrap_after_cart {
+	width: 100%;
+}
+
+.giftwrap_after_cart{
+	margin: 1em 0 1em;
+}
+.wc-giftwrap .giftwrap_ul,
+.type-page ul.giftwrap_ul,
+#left-area ul.giftwrap_ul,
+.entry-content ul.giftwrap_ul {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	list-style: none;
+	margin-left: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+.entry ul.giftwrap_ul li,
+.wc-giftwrap li,
+.entry-content .wc-giftwrap li {
+	float: left;
+	list-style: none;
+	margin-bottom: 1em;
+	opacity: 1;
+}
+.giftwrap_li .giftwrap_thumb,
+.wc-giftwrap .giftwrap_thumb {
+	margin: 1em 0 0 0;
+}
+.giftwrap_li label {
+	display: inline;
+}
+
+.wc_giftwrap_notes_container {
+	clear: both;
+	display: block;
+}
+.wc_giftwrap_notes_container textarea {
+	box-sizing: border-box;
+	margin-bottom: 1em;
+	width: 100%;
+}
+.wc-giftwrap .amount:before {
+	content: "- ";
+}
+@media ( min-width: 768px ) {
+	.woocommerce table.cart td.actions .wc-giftwrap {
+		text-align: left;
+	}
+}

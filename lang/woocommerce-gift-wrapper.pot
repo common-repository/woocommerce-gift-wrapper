@@ -1,0 +1,408 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gift Wrapper\n"
+"POT-Creation-Date: 2023-11-15 10:53-0800\n"
+"PO-Revision-Date: 2022-02-17 14:54-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-gift-wrapper.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/class-gift-wrapper-admin-notices.php:38
+#, php-format
+msgid ""
+"Gift Wrapper is not set up properly yet. Please choose a WC product category "
+"to represent your gift wrap options <a href=\"%s\">in the settings</a>."
+msgstr ""
+
+#. translators: %s: theme name
+#: includes/class-gift-wrapper-admin-notices.php:122
+#, php-format
+msgid ""
+"Your theme (%s) contains outdated copies of some WooCommerce Gift Wrapper "
+"template files."
+msgstr ""
+
+#: includes/class-gift-wrapper-admin-notices.php:123
+msgid ""
+"The following files should be updated to reflect parent template file "
+"changes to ensure they are secure and compatible with the current version of "
+"Gift Wrapper."
+msgstr ""
+
+#: includes/class-gift-wrapper-admin-notices.php:129
+msgid ""
+"If you copied over a template file to your theme to change something, you "
+"will need to copy the new version of the template and apply your changes "
+"again."
+msgstr ""
+
+#: includes/class-gift-wrapper-elementor-widget.php:104
+msgid "Gift Wrapper Settings"
+msgstr ""
+
+#: includes/class-gift-wrapper-elementor-widget.php:112
+msgid "Gift Wrap Category"
+msgstr ""
+
+#: includes/class-gift-wrapper-elementor-widget.php:121
+#: includes/class-gift-wrapper-settings-page.php:148
+msgid "How should options be displayed?"
+msgstr ""
+
+#: includes/class-gift-wrapper-elementor-widget.php:124
+#: includes/class-gift-wrapper-settings-page.php:153
+msgid "Modal/Popup"
+msgstr ""
+
+#: includes/class-gift-wrapper-elementor-widget.php:125
+#: includes/class-gift-wrapper-settings-page.php:154
+msgid "SlideToggle - uses jQuery"
+msgstr ""
+
+#: includes/class-gift-wrapper-elementor-widget.php:126
+#: includes/class-gift-wrapper-settings-page.php:155
+msgid "Checkbox"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: includes/class-gift-wrapper-settings-page.php:17
+#: includes/class-gift-wrapper-settings-product.php:49
+msgid "Gift Wrapper"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:31
+msgid "General Options"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:32
+msgid "Order Wrapping"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:33
+msgid "More Info"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:46
+msgid "Setup Instructions"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:49
+#, php-format
+msgid ""
+"Create a new, unique <a href=\"%s\" target=\"_blank\" "
+"rel=\"noopener\">WooCommerce product category</a> to hold your gift wrap "
+"product(s). Name it anything you'd like."
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:50
+#, php-format
+msgid ""
+"Create at least one <a href=\"%s\" target=\"_blank\">WooCommerce product</a> "
+"to represent your gift wrap or add-on. Give it a title and a price. It can "
+"be hidden from the catalog if you like, but shouldn't be private."
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:51
+msgid ""
+"Add the product(s) from step 2 to your new, unique WooCommerce product "
+"category from step 1."
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:52
+msgid ""
+"Change the \"<a href=\"#\" id=\"wcgwp-wrap-category-link\">Gift wrap "
+"category</a>\" setting below to the product category created in step 1, and "
+"save."
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:53
+#, php-format
+msgid ""
+"Review all the settings below, then finish on the <a href=\"%s\" "
+"rel=\"noopener\">Order Wrapping</a> options page."
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:57
+msgid "Gift wrap category"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:58
+msgid ""
+"Define the category which holds your gift wrap product(s), e.g. your boxes, "
+"bags, and gift paper product(s)."
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:63
+msgid "Define a Category"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:70
+msgid "Textarea character limit"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:71
+msgid "Set to 0 (zero) to hide the textarea"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:72
+msgid ""
+"How many characters your customer can type when creating their own note for "
+"giftwrapping. Defaults to 1000 characters; lower this number if you want "
+"shorter notes from your customers."
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:79
+msgid "Gift wrap details"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:80
+msgid ""
+"Optional text to give any details or conditions of your gift wrap offering."
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:91
+msgid "Advanced Options"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:97
+msgid "Accommodate templates from version 5?"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:100
+msgid ""
+"Version 6.0 of Gift Wrapper includes many template adjustments, and uses "
+"AJAX in the cart/checkout instead of a form submit.<br />If you have "
+"overwritten the plugin templates with customizations before 6.0 and things "
+"broke for you with the 6.0 update, check this box until you can update your "
+"templates."
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:106
+msgid "Leave No Trace"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:109
+msgid "Delete all settings upon plugin uninstall"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:110
+msgid ""
+"If you plan on deleting this plugin and not coming back, and want to keep "
+"your Wordpress database tables tidy, check this box, save settings, then "
+"delete the plugin."
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:130
+msgid "Order Gift Wrapping Settings"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:132
+msgid ""
+"These settings apply to per-order wrap options in the cart and checkout "
+"areas, not cart item (per-item) or per-product wrapping."
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:134
+#, php-format
+msgid ""
+"Per-product and cart item (inside the cart) gift wrapping options are "
+"available in the <a href=\"%s\" target=\"_blank\" rel=\"noopener\">PLUS "
+"version of this plugin.</a>"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:138
+msgid "Gift wrap prompt location"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:139
+msgid ""
+"Choose where to show gift wrap options to the customer on the cart page. You "
+"may choose more than one. Set to \"none\" to both temporarily hide your wrap "
+"and keep your settings for later."
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:149
+msgid ""
+"If modal or slideToggle, there will be a prompt link (\"header\") in the "
+"cart, which when clicked will open a panel for customers to choose gift "
+"wrapping options. Checkbox and alternative modal display options available "
+"in the PLUS (paid) version."
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:161
+msgid "Link checkbox label?"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:162
+msgid "Should the checkbox label product title link to its WC product page?"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:166
+#: includes/class-gift-wrapper-settings-page.php:178
+#: includes/class-gift-wrapper-settings-page.php:190
+#: includes/class-gift-wrapper-settings-page.php:202
+msgid "Yes"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:167
+#: includes/class-gift-wrapper-settings-page.php:179
+#: includes/class-gift-wrapper-settings-page.php:191
+#: includes/class-gift-wrapper-settings-page.php:203
+msgid "No"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:173
+msgid "Show thumbnails?"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:174
+msgid "Should gift wrap product thumbnail images be visible in the cart?"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:185
+msgid "Link thumbnails?"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:186
+msgid "Should thumbnail images link to gift wrap product details?"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:197
+msgid "Allow more than one gift wrap product in cart?"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:198
+msgid ""
+"If yes, customers can buy more than one gift wrapping product in one order."
+msgstr ""
+
+#: includes/class-gift-wrapper-settings.php:27
+msgid "Settings"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings.php:28
+msgid "Donate"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings.php:67
+msgid "None selected"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings.php:72
+msgid "None set up yet"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings.php:89
+msgid "Before cart"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings.php:90
+msgid "Before cart collaterals"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings.php:91
+msgid "After cart"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings.php:92
+msgid "Before checkout"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings.php:93
+msgid "After checkout"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings.php:94
+msgid "None"
+msgstr ""
+
+#: includes/class-gift-wrapper-wrapping.php:205
+msgid "Gift wrap was added to your cart."
+msgstr ""
+
+#: includes/class-gift-wrapper-wrapping.php:223
+#, php-format
+msgid "You cannot add another \"%s\" to your cart."
+msgstr ""
+
+#: includes/class-gift-wrapper-wrapping.php:250
+msgid "No valid WC product ID found"
+msgstr ""
+
+#: includes/class-gift-wrapper-wrapping.php:375
+#, php-format
+msgid "You can only add %s %s to your cart."
+msgstr ""
+
+#: includes/class-gift-wrapper-wrapping.php:819
+#: includes/class-gift-wrapper-wrapping.php:877
+msgid "Note"
+msgstr ""
+
+#: includes/class-gift-wrapper.php:58 includes/class-gift-wrapper.php:65
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: includes/class-gift-wrapper.php:308 includes/class-gift-wrapper.php:337
+#: includes/class-gift-wrapper.php:347
+msgid "Are you sure you want to replace the gift wrap in your cart?"
+msgstr ""
+
+#: includes/class-gift-wrapper.php:309
+msgid "Please choose a gift wrap product to continue."
+msgstr ""
+
+#: templates/wcgwp/giftwrap-list.php:27 templates/wcgwp/modal.php:25
+msgid "Add gift wrap?"
+msgstr ""
+
+#: templates/wcgwp/giftwrap-list.php:27 templates/wcgwp/modal.php:34
+msgid "Cancel"
+msgstr ""
+
+#: templates/wcgwp/giftwrap-list.php:36 templates/wcgwp/modal.php:44
+msgid "We offer the following gift wrap options:"
+msgstr ""
+
+#: templates/wcgwp/giftwrap-list.php:112 templates/wcgwp/modal.php:116
+msgid "Add Gift Wrap Message:"
+msgstr ""
+
+#: templates/wcgwp/giftwrap-list.php:118 templates/wcgwp/modal.php:127
+msgid "Add Gift Wrap to Order"
+msgstr ""
+
+#: woocommerce-gift-wrapper.php:129
+msgid ""
+"The WooCommerce plugin must be active in order to activate and use "
+"WooCommerce Gift Wrapper."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.giftwrapper.app"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Offer gift wrap options on WooCommerce cart and/or checkout pages. Let "
+"customers wrap their orders!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Little Package"
+msgstr ""

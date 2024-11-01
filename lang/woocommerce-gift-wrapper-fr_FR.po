@@ -1,0 +1,1249 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Gift Wrapper\n"
+"POT-Creation-Date: 2023-11-15 10:54-0800\n"
+"PO-Revision-Date: 2023-11-15 10:54-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-gift-wrapper.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-gift-wrapper-admin-notices.php:38
+#, php-format
+msgid ""
+"Gift Wrapper is not set up properly yet. Please choose a WC product category "
+"to represent your gift wrap options <a href=\"%s\">in the settings</a>."
+msgstr ""
+"L'emballage cadeau n'est pas encore correctement configuré. Veuillez choisir "
+"une catégorie de produits WC pour représenter vos options d'emballage cadeau "
+"<a href=\"%s\">dans les paramètres</a>."
+
+#: includes/class-gift-wrapper-admin-notices.php:122
+#, php-format
+msgid ""
+"Your theme (%s) contains outdated copies of some WooCommerce Gift Wrapper "
+"template files."
+msgstr ""
+"Votre thème (%s) contient des copies obsolètes de certains fichiers de "
+"modèles d'emballages cadeaux de WooCommerce."
+
+#: includes/class-gift-wrapper-admin-notices.php:123
+msgid ""
+"The following files should be updated to reflect parent template file "
+"changes to ensure they are secure and compatible with the current version of "
+"Gift Wrapper."
+msgstr ""
+"Les fichiers suivants doivent être mis à jour pour refléter les "
+"modifications apportées aux modèles de fichiers des parents afin de garantir "
+"leur sécurité et leur compatibilité avec la version actuelle de Gift Wrapper."
+
+#: includes/class-gift-wrapper-admin-notices.php:129
+msgid ""
+"If you copied over a template file to your theme to change something, you "
+"will need to copy the new version of the template and apply your changes "
+"again."
+msgstr ""
+"Si vous avez copié un fichier de modèle sur votre thème pour modifier "
+"quelque chose, vous devrez copier la nouvelle version du modèle et appliquer "
+"à nouveau vos modifications."
+
+#: includes/class-gift-wrapper-elementor-widget.php:104
+msgid "Gift Wrapper Settings"
+msgstr "Réglages de l'emballage des cadeaux"
+
+#: includes/class-gift-wrapper-elementor-widget.php:112
+msgid "Gift Wrap Category"
+msgstr "Gift Wrap catégorie"
+
+#: includes/class-gift-wrapper-elementor-widget.php:121
+#: includes/class-gift-wrapper-settings-page.php:148
+msgid "How should options be displayed?"
+msgstr "Comment les options doivent-elles être affichées ?"
+
+#: includes/class-gift-wrapper-elementor-widget.php:124
+#: includes/class-gift-wrapper-settings-page.php:153
+msgid "Modal/Popup"
+msgstr "Modal/Popup"
+
+#: includes/class-gift-wrapper-elementor-widget.php:125
+#: includes/class-gift-wrapper-settings-page.php:154
+msgid "SlideToggle - uses jQuery"
+msgstr "SlideToggle - utilise jQuery"
+
+#: includes/class-gift-wrapper-elementor-widget.php:126
+#: includes/class-gift-wrapper-settings-page.php:155
+msgid "Checkbox"
+msgstr "Case à cocher"
+
+#. Plugin Name of the plugin/theme
+#: includes/class-gift-wrapper-settings-page.php:17
+#: includes/class-gift-wrapper-settings-product.php:49
+msgid "Gift Wrapper"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:31
+msgid "General Options"
+msgstr "Options générales"
+
+#: includes/class-gift-wrapper-settings-page.php:32
+msgid "Order Wrapping"
+msgstr "Emballage de la commande"
+
+#: includes/class-gift-wrapper-settings-page.php:33
+msgid "More Info"
+msgstr ""
+
+#: includes/class-gift-wrapper-settings-page.php:46
+msgid "Setup Instructions"
+msgstr "Instructions d'installation"
+
+#: includes/class-gift-wrapper-settings-page.php:49
+#, php-format
+msgid ""
+"Create a new, unique <a href=\"%s\" target=\"_blank\" "
+"rel=\"noopener\">WooCommerce product category</a> to hold your gift wrap "
+"product(s). Name it anything you'd like."
+msgstr ""
+"Créez une nouvelle <a href=\"%s\" target=\"_blank\" "
+"rel=\"noopener\">catégorie de produits WooCommerce</a> unique pour contenir "
+"vos produits d'emballage cadeau. Donnez-lui le nom que vous souhaitez."
+
+#: includes/class-gift-wrapper-settings-page.php:50
+#, php-format
+msgid ""
+"Create at least one <a href=\"%s\" target=\"_blank\">WooCommerce product</a> "
+"to represent your gift wrap or add-on. Give it a title and a price. It can "
+"be hidden from the catalog if you like, but shouldn't be private."
+msgstr ""
+"Créez au moins un <a href=\"%s\" target=\"_blank\">produit WooCommerce</a> "
+"pour représenter votre emballage cadeau ou votre complément. Donnez-lui un "
+"titre et un prix. Il peut être caché du catalogue si vous le souhaitez, mais "
+"il ne doit pas être privé."
+
+#: includes/class-gift-wrapper-settings-page.php:51
+msgid ""
+"Add the product(s) from step 2 to your new, unique WooCommerce product "
+"category from step 1."
+msgstr ""
+"Ajoutez le(s) produit(s) de l'étape 2 à votre nouvelle et unique catégorie "
+"de produits WooCommerce de l'étape 1."
+
+#: includes/class-gift-wrapper-settings-page.php:52
+msgid ""
+"Change the \"<a href=\"#\" id=\"wcgwp-wrap-category-link\">Gift wrap "
+"category</a>\" setting below to the product category created in step 1, and "
+"save."
+msgstr ""
+"Modifiez le paramètre<a href=\"#\" id=\"wcgwp-wrap-category-"
+"link\">\"Catégorie d'emballage cadeau</a>\" ci-dessous pour qu'il "
+"corresponde à la catégorie de produit créée à l'étape 1, puis enregistrez."
+
+#: includes/class-gift-wrapper-settings-page.php:53
+#, php-format
+msgid ""
+"Review all the settings below, then finish on the <a href=\"%s\" "
+"rel=\"noopener\">Order Wrapping</a> options page."
+msgstr ""
+"Passez en revue tous les paramètres ci-dessous, puis terminez sur la page "
+"des options d'<a href=\"%s\" rel=\"noopener\">emballage de la commande</a>."
+
+#: includes/class-gift-wrapper-settings-page.php:57
+msgid "Gift wrap category"
+msgstr "Gift Wrap catégorie"
+
+#: includes/class-gift-wrapper-settings-page.php:58
+msgid ""
+"Define the category which holds your gift wrap product(s), e.g. your boxes, "
+"bags, and gift paper product(s)."
+msgstr ""
+"Définissez la catégorie dans laquelle se trouvent vos produits de papier "
+"cadeau, par exemple vos boîtes, sacs et produits de papier cadeau."
+
+#: includes/class-gift-wrapper-settings-page.php:63
+msgid "Define a Category"
+msgstr "Définition d'une catégorie"
+
+#: includes/class-gift-wrapper-settings-page.php:70
+msgid "Textarea character limit"
+msgstr "Nombre limite de caractères"
+
+#: includes/class-gift-wrapper-settings-page.php:71
+msgid "Set to 0 (zero) to hide the textarea"
+msgstr "Définir sur 0 (zéro) pour masquer la zone de texte"
+
+#: includes/class-gift-wrapper-settings-page.php:72
+msgid ""
+"How many characters your customer can type when creating their own note for "
+"giftwrapping. Defaults to 1000 characters; lower this number if you want "
+"shorter notes from your customers."
+msgstr ""
+"Combien de caractères votre client peut-il saisir lors de la création de sa "
+"propre note pour l’emballage des cadeaux? La valeur par défaut est 1000 "
+"caractères. réduisez ce nombre si vous souhaitez des notes plus courtes de "
+"vos clients."
+
+#: includes/class-gift-wrapper-settings-page.php:79
+msgid "Gift wrap details"
+msgstr "Détails cadeau"
+
+#: includes/class-gift-wrapper-settings-page.php:80
+msgid ""
+"Optional text to give any details or conditions of your gift wrap offering."
+msgstr ""
+"Texte facultatif permettant d'indiquer les détails ou les conditions de "
+"votre offre d'emballage cadeau. Cette chaîne est maintenant définie dans "
+"l'onglet \"Langue\"."
+
+#: includes/class-gift-wrapper-settings-page.php:91
+msgid "Advanced Options"
+msgstr "Options avancées"
+
+#: includes/class-gift-wrapper-settings-page.php:97
+msgid "Accommodate templates from version 5?"
+msgstr "Prise en charge des modèles de la version 5 ?"
+
+#: includes/class-gift-wrapper-settings-page.php:100
+msgid ""
+"Version 6.0 of Gift Wrapper includes many template adjustments, and uses "
+"AJAX in the cart/checkout instead of a form submit.<br />If you have "
+"overwritten the plugin templates with customizations before 6.0 and things "
+"broke for you with the 6.0 update, check this box until you can update your "
+"templates."
+msgstr ""
+"La version 6.0 de Gift Wrapper inclut de nombreux ajustements de modèles, et "
+"utilise AJAX dans le panier/la caisse au lieu d'un formulaire de soumission."
+"<br />Si vous avez écrasé les modèles du plugin avec des personnalisations "
+"antérieures à la version 6.0 et que les choses se sont cassées avec la mise "
+"à jour 6.0, cochez cette case jusqu'à ce que vous puissiez mettre à jour vos "
+"modèles."
+
+#: includes/class-gift-wrapper-settings-page.php:106
+msgid "Leave No Trace"
+msgstr "Ne laisser aucune trace?"
+
+#: includes/class-gift-wrapper-settings-page.php:109
+msgid "Delete all settings upon plugin uninstall"
+msgstr "Supprimer tous les paramètres lors de la désinstallation du plugin"
+
+#: includes/class-gift-wrapper-settings-page.php:110
+msgid ""
+"If you plan on deleting this plugin and not coming back, and want to keep "
+"your Wordpress database tables tidy, check this box, save settings, then "
+"delete the plugin."
+msgstr ""
+"Si vous prévoyez de supprimer ce plugin et de ne pas revenir, et que vous "
+"souhaitez garder vos tables de base de données Wordpress bien rangés, cochez "
+"cette case, enregistrez les paramètres, puis supprimez le plugin."
+
+#: includes/class-gift-wrapper-settings-page.php:130
+msgid "Order Gift Wrapping Settings"
+msgstr "Commander les paramètres d'emballage des cadeaux"
+
+#: includes/class-gift-wrapper-settings-page.php:132
+msgid ""
+"These settings apply to per-order wrap options in the cart and checkout "
+"areas, not cart item (per-item) or per-product wrapping."
+msgstr ""
+"Ces paramètres s'appliquent aux options d'emballage par commande dans les "
+"zones du panier et de la caisse, et non à l'emballage par élément du panier "
+"ou par produit."
+
+#: includes/class-gift-wrapper-settings-page.php:134
+#, php-format
+msgid ""
+"Per-product and cart item (inside the cart) gift wrapping options are "
+"available in the <a href=\"%s\" target=\"_blank\" rel=\"noopener\">PLUS "
+"version of this plugin.</a>"
+msgstr ""
+"Les options d'emballage cadeau par produit et par élément du panier (à "
+"l'intérieur du panier) sont disponibles dans la <a href=\"%s\" "
+"target=\"_blank\" rel=\"noopener\">version PLUS de ce plugin</a>."
+
+#: includes/class-gift-wrapper-settings-page.php:138
+msgid "Gift wrap prompt location"
+msgstr "Emplacement pour l'emballage des cadeaux"
+
+#: includes/class-gift-wrapper-settings-page.php:139
+msgid ""
+"Choose where to show gift wrap options to the customer on the cart page. You "
+"may choose more than one. Set to \"none\" to both temporarily hide your wrap "
+"and keep your settings for later."
+msgstr ""
+"Choisissez l'endroit où les options d'emballage cadeau seront présentées au "
+"client sur la page du panier. Vous pouvez en choisir plusieurs. Définissez "
+"\"aucun\" pour masquer temporairement votre emballage et conserver vos "
+"paramètres pour plus tard."
+
+#: includes/class-gift-wrapper-settings-page.php:149
+msgid ""
+"If modal or slideToggle, there will be a prompt link (\"header\") in the "
+"cart, which when clicked will open a panel for customers to choose gift "
+"wrapping options. Checkbox and alternative modal display options available "
+"in the PLUS (paid) version."
+msgstr ""
+"S'il s'agit d'un affichage modal ou d'un slideToggle, il y aura un lien "
+"d'invite (\"header\") dans le panier, qui, lorsqu'il est cliqué, ouvre un "
+"panneau permettant aux clients de choisir les options d'emballage du cadeau. "
+"La case à cocher et les autres options d'affichage modal sont disponibles "
+"dans la version PLUS (payante)."
+
+#: includes/class-gift-wrapper-settings-page.php:161
+msgid "Link checkbox label?"
+msgstr "Étiquette de la case à cocher du lien ?"
+
+#: includes/class-gift-wrapper-settings-page.php:162
+msgid "Should the checkbox label product title link to its WC product page?"
+msgstr ""
+"Le titre du produit de la case à cocher doit-il renvoyer à la page du "
+"produit du WC ?"
+
+#: includes/class-gift-wrapper-settings-page.php:166
+#: includes/class-gift-wrapper-settings-page.php:178
+#: includes/class-gift-wrapper-settings-page.php:190
+#: includes/class-gift-wrapper-settings-page.php:202
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/class-gift-wrapper-settings-page.php:167
+#: includes/class-gift-wrapper-settings-page.php:179
+#: includes/class-gift-wrapper-settings-page.php:191
+#: includes/class-gift-wrapper-settings-page.php:203
+msgid "No"
+msgstr "Non"
+
+#: includes/class-gift-wrapper-settings-page.php:173
+msgid "Show thumbnails?"
+msgstr "Afficher les miniatures?"
+
+#: includes/class-gift-wrapper-settings-page.php:174
+msgid "Should gift wrap product thumbnail images be visible in the cart?"
+msgstr ""
+"Images miniatures de la pellicule de produit cadeau soient visibles dans le "
+"panier ?"
+
+#: includes/class-gift-wrapper-settings-page.php:185
+msgid "Link thumbnails?"
+msgstr "Lier les images miniatures?"
+
+#: includes/class-gift-wrapper-settings-page.php:186
+msgid "Should thumbnail images link to gift wrap product details?"
+msgstr "Les images miniatures doivent-elles être liées aux détails du produit?"
+
+#: includes/class-gift-wrapper-settings-page.php:197
+msgid "Allow more than one gift wrap product in cart?"
+msgstr "Permettre à plus d’un produit d’emballage cadeau au panier ?"
+
+#: includes/class-gift-wrapper-settings-page.php:198
+msgid ""
+"If yes, customers can buy more than one gift wrapping product in one order."
+msgstr ""
+"Dans l’affirmative, les clients peuvent acheter plus d’un produit cadeau "
+"dans une commande."
+
+#: includes/class-gift-wrapper-settings.php:27
+msgid "Settings"
+msgstr "Paramètres"
+
+#: includes/class-gift-wrapper-settings.php:28
+msgid "Donate"
+msgstr "Faire un don"
+
+#: includes/class-gift-wrapper-settings.php:67
+msgid "None selected"
+msgstr "Pas de sélection"
+
+#: includes/class-gift-wrapper-settings.php:72
+msgid "None set up yet"
+msgstr "Aucun mis en place pour le moment"
+
+#: includes/class-gift-wrapper-settings.php:89
+msgid "Before cart"
+msgstr "Avant le panier"
+
+#: includes/class-gift-wrapper-settings.php:90
+msgid "Before cart collaterals"
+msgstr "Avant les garanties de chariot"
+
+#: includes/class-gift-wrapper-settings.php:91
+msgid "After cart"
+msgstr "Après le panier"
+
+#: includes/class-gift-wrapper-settings.php:92
+msgid "Before checkout"
+msgstr "Avant de commander"
+
+#: includes/class-gift-wrapper-settings.php:93
+msgid "After checkout"
+msgstr "Après le commander"
+
+#: includes/class-gift-wrapper-settings.php:94
+msgid "None"
+msgstr "Aucun"
+
+#: includes/class-gift-wrapper-wrapping.php:205
+msgid "Gift wrap was added to your cart."
+msgstr "L'emballage cadeau a été ajouté à votre panier."
+
+#: includes/class-gift-wrapper-wrapping.php:223
+#, php-format
+msgid "You cannot add another \"%s\" to your cart."
+msgstr "Vous ne pouvez pas ajouter un autre «&nbsp;%s&nbsp;» à votre panier."
+
+#: includes/class-gift-wrapper-wrapping.php:250
+msgid "No valid WC product ID found"
+msgstr "Aucun identifiant valide de produit WC n'a été trouvé"
+
+#: includes/class-gift-wrapper-wrapping.php:375
+#, php-format
+msgid "You can only add %s %s to your cart."
+msgstr "Vous ne pouvez ajouter que %s %s à votre panier."
+
+#: includes/class-gift-wrapper-wrapping.php:819
+#: includes/class-gift-wrapper-wrapping.php:877
+msgid "Note"
+msgstr "Note"
+
+#: includes/class-gift-wrapper.php:58 includes/class-gift-wrapper.php:65
+msgid "Cheatin&#8217; uh?"
+msgstr "Alors on triche hein ?"
+
+#: includes/class-gift-wrapper.php:308 includes/class-gift-wrapper.php:337
+#: includes/class-gift-wrapper.php:347
+msgid "Are you sure you want to replace the gift wrap in your cart?"
+msgstr ""
+"Êtes vous sûr de que vouloir remplacer le cadeau enveloppez dans votre "
+"panier ?"
+
+#: includes/class-gift-wrapper.php:309
+msgid "Please choose a gift wrap product to continue."
+msgstr "Veuillez choisir un produit d'emballage cadeau pour continuer."
+
+#: templates/wcgwp/giftwrap-list.php:27 templates/wcgwp/modal.php:25
+msgid "Add gift wrap?"
+msgstr "Ajouter un emballage cadeau?"
+
+#: templates/wcgwp/giftwrap-list.php:27 templates/wcgwp/modal.php:34
+msgid "Cancel"
+msgstr "Annuler"
+
+#: templates/wcgwp/giftwrap-list.php:36 templates/wcgwp/modal.php:44
+msgid "We offer the following gift wrap options:"
+msgstr "Nous offrons les options suivantes:"
+
+#: templates/wcgwp/giftwrap-list.php:112 templates/wcgwp/modal.php:116
+msgid "Add Gift Wrap Message:"
+msgstr "Ajouter Message d’enveloppe-cadeau:"
+
+#: templates/wcgwp/giftwrap-list.php:118 templates/wcgwp/modal.php:127
+msgid "Add Gift Wrap to Order"
+msgstr "Ajouter des cadeaux à la commande"
+
+#: woocommerce-gift-wrapper.php:129
+msgid ""
+"The WooCommerce plugin must be active in order to activate and use "
+"WooCommerce Gift Wrapper."
+msgstr ""
+"Le plugin WooCommerce doit être actif pour pouvoir activer et utiliser "
+"WooCommerce Gift Wrapper."
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.giftwrapper.app"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Offer gift wrap options on WooCommerce cart and/or checkout pages. Let "
+"customers wrap their orders!"
+msgstr ""
+"Proposez des options d'emballage cadeau sur les pages de panier et/ou de "
+"paiement de WooCommerce. Laissez les clients emballer leurs commandes !"
+
+#. Author of the plugin/theme
+msgid "Little Package"
+msgstr ""
+
+#~ msgid "Product Wrapping"
+#~ msgstr "Emballage du produit"
+
+#~ msgid "Language"
+#~ msgstr "Langue"
+
+#, php-format
+#~ msgid ""
+#~ "Optional text to give any details or conditions of your gift wrap "
+#~ "offering. This string is now set under the <a href=\"%s\" "
+#~ "target=\"_blank\" rel=\"noopener\">\"Language\" (PLUS) tab</a>."
+#~ msgstr ""
+#~ "Texte facultatif permettant d'indiquer les détails ou les conditions de "
+#~ "votre offre de papier cadeau. Cette chaîne est désormais définie dans "
+#~ "l'<a href=\"%s\" target=\"_blank\" rel=\"noopener\">onglet "
+#~ "\"Langue\" (PLUS)</a>."
+
+#~ msgid ""
+#~ "This text is not translatable by Wordpress i18n, but can be translated by "
+#~ "WPML. Leave this field empty to translate via another means."
+#~ msgstr ""
+#~ "Ce texte n'est pas traduisible par Wordpress i18n, mais peut être traduit "
+#~ "par WPML. Laissez ce champ vide pour traduire par un autre moyen."
+
+#~ msgid "Allow Multiples?"
+#~ msgstr "Autoriser les multiples ?"
+
+#~ msgid "Check to allow more than one giftwrap to be added to a product."
+#~ msgstr ""
+#~ "Cochez cette case pour autoriser l'ajout de plus d'un emballage cadeau à "
+#~ "un produit."
+
+#~ msgid ""
+#~ "PLUS (paid) feature. Allows multiple wrap products to be added to any "
+#~ "item."
+#~ msgstr ""
+#~ "Fonction PLUS (payante). Permet d'ajouter plusieurs produits d'emballage "
+#~ "à un article."
+
+#~ msgid "Hide price?"
+#~ msgstr "Masquer le prix?"
+
+#~ msgid ""
+#~ "PLUS (paid) feature. Should the gift wrap price be hidden? Tip: the price "
+#~ "HTML can also be filtered using the 'wcgwp_price_html' hook."
+#~ msgstr ""
+#~ "Fonction PLUS (payante). Le prix de l'emballage cadeau doit-il être "
+#~ "masqué ? Conseil : le prix HTML peut également être filtré à l'aide du "
+#~ "crochet 'wcgwp_price_html'."
+
+#~ msgid "Add fee?"
+#~ msgstr "Ajouter des frais ?"
+
+#~ msgid ""
+#~ "PLUS (paid) feature. Do you wish to charge a fee for customers to add a "
+#~ "note to their gift wrapping?"
+#~ msgstr ""
+#~ "Fonction PLUS (payante). Souhaitez-vous faire payer les clients pour "
+#~ "qu'ils ajoutent une note à leur emballage cadeau ?"
+
+#~ msgid "Fee amount"
+#~ msgstr "Montant des frais"
+
+#~ msgid ""
+#~ "PLUS (paid) feature. Enter the amount you wish to charge to include a "
+#~ "note, e.g. 1.00 or 2.50"
+#~ msgstr ""
+#~ "Fonction PLUS (payante). Entrez le montant que vous souhaitez facturer "
+#~ "pour inclure une note, par exemple 1,00 ou 2,50"
+
+#~ msgid "Modal Options"
+#~ msgstr "Paramètres du popup"
+
+#, php-format
+#~ msgid ""
+#~ "You have chosen to use a modal (pop-up) to display your wrap. <a "
+#~ "href=\"%s\" rel=\"noopener\" target=\"_blank\" class=\"button "
+#~ "btn\">Animate modals with Gift Wrapper Plus</a>"
+#~ msgstr ""
+#~ "Vous avez choisi d'utiliser une modale (pop-up) pour afficher votre "
+#~ "emballage. <a href=\"%s\" rel=\"noopener\" target=\"_blank\" "
+#~ "class=\"button btn\">Animer des modales avec Gift Wrapper Plus</a>"
+
+#~ msgid "Animate your modals?"
+#~ msgstr "Animer vos modales ?"
+
+#, php-format
+#~ msgid ""
+#~ "Check to animate modals using <a href=\"%s\" target=\"_blank\" "
+#~ "rel=\"noopener\">animate.css</a>. Will automatically include extra "
+#~ "necessary CSS file and Javascript in pages where modals show."
+#~ msgstr ""
+#~ "Cochez la case pour animer les modales en utilisant <a href=\"%s\" "
+#~ "target=\"_blank\" rel=\"noopener\">animate.css</a>. Inclura "
+#~ "automatiquement le fichier CSS et le Javascript supplémentaires "
+#~ "nécessaires dans les pages où les modales sont affichées."
+
+#~ msgid ""
+#~ "You can also choose to instead customize/animate your modals as you "
+#~ "choose by overriding included template files."
+#~ msgstr ""
+#~ "Vous pouvez également choisir de personnaliser/animer vos modales comme "
+#~ "vous le souhaitez en remplaçant les fichiers de modèle inclus."
+
+#~ msgid "Entrance animation"
+#~ msgstr "Animation d'entrée"
+
+#~ msgid "Exit animation"
+#~ msgstr "Animation de fermeture"
+
+#, php-format
+#~ msgid ""
+#~ "<a href=\"%s\">Per-product and cart item gift wrapping options are in a "
+#~ "separate settings tab</a> (PLUS)"
+#~ msgstr ""
+#~ "<a href=\"%s\">Les options d'emballage cadeau par produit et par article "
+#~ "du panier se trouvent dans un onglet séparé</a> (PLUS)"
+
+#~ msgid "Max number of wrap products in cart"
+#~ msgstr "Nombre maximum de produits emballés dans le panier"
+
+#~ msgid ""
+#~ "This setting only affects wrap added from peri-cart/checkout locations, "
+#~ "not cart item or per-product wrapping."
+#~ msgstr ""
+#~ "Ce paramètre n'affecte que l'habillage ajouté à partir d'emplacements "
+#~ "situés à proximité du panier/de la caisse, et non l'habillage des "
+#~ "articles du panier ou des produits."
+
+#~ msgid "Hide prompts if wrap in cart?"
+#~ msgstr "Masquer les invites si le produit est dans le panier ?"
+
+#~ msgid ""
+#~ "If there is any wrap in the cart (demonstrating that customer is aware "
+#~ "wrapping is available) should prompts in cart/checkout area be hidden?"
+#~ msgstr ""
+#~ "S'il y a un emballage dans le panier (ce qui montre que le client sait "
+#~ "que l'emballage est disponible), les invites dans le panier/la zone de "
+#~ "paiement doivent-elles être masquées ?"
+
+#~ msgid "Product Gift Wrapping Settings"
+#~ msgstr "Paramètres de l'emballage cadeau des produits"
+
+#~ msgid ""
+#~ "Whereas order gift wrapping is non-specific and generally applies to an "
+#~ "entire WooCommerce order,"
+#~ msgstr ""
+#~ "Alors que l'emballage cadeau pour les commandes n'est pas spécifique et "
+#~ "s'applique généralement à l'ensemble d'une commande WooCommerce,"
+
+#~ msgid ""
+#~ "these Product Gift Wrapping settings allow more granular control over "
+#~ "what products can be wrapped."
+#~ msgstr ""
+#~ "ces paramètres d'emballage cadeau des produits permettent un contrôle "
+#~ "plus granulaire des produits qui peuvent être emballés."
+
+#~ msgid "Gift wrapping"
+#~ msgstr "Emballage-cadeau"
+
+#~ msgid "Enable Gift Wrap for All Products"
+#~ msgstr "Activez l'emballage cadeau pour tous les produits"
+
+#~ msgid ""
+#~ "If you check this box, gift wrapping will be enabled for your entire "
+#~ "catalog, except for any excluded product categories, or individually "
+#~ "excluded products."
+#~ msgstr ""
+#~ "Si vous cochez cette case, l'emballage cadeau sera activé pour l'ensemble "
+#~ "de votre catalogue, à l'exception des catégories de produits exclus ou "
+#~ "des produits exclus individuellement."
+
+#~ msgid ""
+#~ "If this is not checked and you wish for per-product wrap control, you "
+#~ "will need to enable wrap in the product settings for products you wish "
+#~ "wrapped."
+#~ msgstr ""
+#~ "Si cette case n'est pas cochée et que vous souhaitez contrôler "
+#~ "l'habillage par produit, vous devrez activer l'habillage dans les "
+#~ "paramètres du produit pour les produits que vous souhaitez habiller."
+
+#~ msgid ""
+#~ "If this is not checked and wrapping is not turned on for any individual "
+#~ "products, no per-product wrapping will be offered."
+#~ msgstr ""
+#~ "Si cette case n'est pas cochée et que l'emballage n'est pas activé pour "
+#~ "les produits individuels, aucun emballage par produit ne sera proposé."
+
+#~ msgid "Product page wrap category"
+#~ msgstr "Catégorie d’emballage de la page produit"
+
+#~ msgid ""
+#~ "(Optional) Set a wrapping category to apply to single products. Can be "
+#~ "overwritten in Woo single product settings. If not set, the gift wrap "
+#~ "category in General Options applies."
+#~ msgstr ""
+#~ "(Facultatif) Définissez une catégorie d'emballage à appliquer aux "
+#~ "produits uniques. Peut être remplacé par les paramètres du produit unique "
+#~ "Woo. Si elle n'est pas définie, la catégorie d'emballage cadeau dans les "
+#~ "Options générales s'applique."
+
+#~ msgid "Exclude product categories"
+#~ msgstr "Exclure des catégories de produit"
+
+#~ msgid ""
+#~ "Choose product categories to exclude from gift wrapping. You may choose "
+#~ "more than one. You can exclude products individually using their Woo "
+#~ "product settings pages."
+#~ msgstr ""
+#~ "Choisissez les catégories de produits à exclure de l'emballage cadeau. "
+#~ "Vous pouvez en choisir plusieurs. Vous pouvez exclure des produits "
+#~ "individuellement à l'aide de leurs pages de paramètres de produits Woo."
+
+#~ msgid "Exclude these categories (optional)"
+#~ msgstr "Exclure ces catégories (facultatif)"
+
+#~ msgid ""
+#~ "Should gift wrap product thumbnail images be visible on product pages?"
+#~ msgstr ""
+#~ "Les vignettes des produits d'emballage cadeau doivent-elles être visibles "
+#~ "sur les pages produits ?"
+
+#~ msgid ""
+#~ "Should thumbnail images link to gift wrap product details on product "
+#~ "pages?"
+#~ msgstr ""
+#~ "Les vignettes doivent-elles être liées aux détails des produits de papier "
+#~ "cadeau sur les pages de produits ?"
+
+#~ msgid "Wrap Quantities"
+#~ msgstr "Quantités d'emballage"
+
+#~ msgid ""
+#~ "(Beta setting) Dictate how many giftwraps can be in cart for each line "
+#~ "item product. Loose control, in development."
+#~ msgstr ""
+#~ "(Paramètre bêta) Dicter le nombre de paquets cadeaux qui peuvent être "
+#~ "dans le panier pour chaque produit de la ligne. Contrôle approximatif, en "
+#~ "cours de développement."
+
+#~ msgid "Any quantity of wrap"
+#~ msgstr "Toute quantité d'emballage"
+
+#~ msgid "One-to-one wrap per product"
+#~ msgstr "Emballage individuel par produit"
+
+#~ msgid "One wrap per product"
+#~ msgstr "Un emballage par produit"
+
+#~ msgid "Up to parent item quantity"
+#~ msgstr "Jusqu'à la quantité de l'article parent"
+
+#~ msgid "Up to total quantity of products in cart"
+#~ msgstr "Jusqu'à la quantité totale de produits dans le panier"
+
+#~ msgid "Cue when unwrappable?"
+#~ msgstr "Cue quand déballer ?"
+
+#~ msgid ""
+#~ "If an item cannot be wrapped, should text be shown to alert the customer? "
+#~ "This text can be translated on the strings page (link above) or by using "
+#~ "filters."
+#~ msgstr ""
+#~ "Si un article ne peut pas être emballé, faut-il afficher un texte pour "
+#~ "avertir le client ? Ce texte peut être traduit sur la page des chaînes "
+#~ "(lien ci-dessus) ou en utilisant des filtres."
+
+#~ msgid "Product page only"
+#~ msgstr "Page produit uniquement"
+
+#~ msgid "Inside cart only"
+#~ msgstr "Chariot intérieur uniquement"
+
+#~ msgid "Show relationship?"
+#~ msgstr "Montrer la relation ?"
+
+#~ msgid ""
+#~ "You have chosen gift wrapping as its own cart item. Should the cart item "
+#~ "show a more obvious relationship to the product it wraps, in the cart?"
+#~ msgstr ""
+#~ "Vous avez choisi de faire de l'emballage cadeau un article à part entière "
+#~ "du panier. L'article du panier doit-il présenter une relation plus "
+#~ "évidente avec le produit qu'il emballe, dans le panier ?"
+
+#~ msgid "Wrap on Product pages"
+#~ msgstr "Emballage sur les pages de produits"
+
+#~ msgid "Gift wrap from product pages?"
+#~ msgstr "Emballage cadeau à partir des pages produits ?"
+
+#~ msgid ""
+#~ "Should product gift wrap be offered from product pages, and if so, as an "
+#~ "attribute of parent product or its own line item when added to cart? If "
+#~ "an attribute, separate tax rates cannot be used and gift wrap will not be "
+#~ "inventoried."
+#~ msgstr ""
+#~ "L'emballage cadeau doit-il être proposé à partir des pages de produits "
+#~ "et, dans l'affirmative, doit-il être considéré comme un attribut du "
+#~ "produit parent ou comme un article distinct lors de l'ajout au panier ? "
+#~ "S'il s'agit d'un attribut, des taux de taxe distincts ne peuvent pas être "
+#~ "utilisés et les emballages cadeaux ne seront pas inventoriés."
+
+#~ msgid "Yes - Cart Item"
+#~ msgstr "Oui - Article du panier"
+
+#~ msgid "Yes - as a Product Attribute"
+#~ msgstr "Oui - en tant qu'attribut du produit"
+
+#~ msgid ""
+#~ "Choose where to show gift wrap options to the customer on the product "
+#~ "page. We recommend \"Before Add to Cart.\" You may choose more than one."
+#~ msgstr ""
+#~ "Choisissez l'endroit où les options d'emballage cadeau seront présentées "
+#~ "au client sur la page du produit. Nous recommandons \"Avant d'ajouter au "
+#~ "panier\" Vous pouvez en choisir plusieurs."
+
+#~ msgid "Before Add to Cart Button"
+#~ msgstr "Avant le bouton \"Ajouter au panier\""
+
+#~ msgid "After Add to Cart Button"
+#~ msgstr "Après le bouton Ajouter au panier"
+
+#~ msgid "Other, specify below:"
+#~ msgstr "Autre, précisez ci-dessous :"
+
+#~ msgid "Other location"
+#~ msgstr "Autre lieu"
+
+#~ msgid ""
+#~ "Name a valid WP hook inside your product pages where a gift wrap prompt "
+#~ "should attach. More than one? Separate with commas."
+#~ msgstr ""
+#~ "Nommez un hook WP valide à l'intérieur de vos pages de produits où un "
+#~ "message d'invitation à emballer les cadeaux devrait être attaché. "
+#~ "Plusieurs ? Séparez-les par des virgules."
+
+#~ msgid "Choose opt-in display type"
+#~ msgstr "Choisissez le type d'affichage opt-in"
+
+#~ msgid ""
+#~ "A slide-down menu of options appears on the page (almost from out of "
+#~ "nowhere) when a user asks to wrap. If modal, when gift wrap links are "
+#~ "clicked, they will open a window for customers to choose gift wrapping "
+#~ "options. It can be styled and might be a nicer option for your site; "
+#~ "however a simple checkbox can be just as effective."
+#~ msgstr ""
+#~ "Un menu déroulant d'options apparaît sur la page (presque sorti de nulle "
+#~ "part) lorsqu'un utilisateur demande à emballer. S'il est modal, lorsque "
+#~ "l'on clique sur les liens d'emballage cadeau, une fenêtre s'ouvre pour "
+#~ "permettre aux clients de choisir les options d'emballage cadeau. Il peut "
+#~ "être stylisé et constituer une option plus agréable pour votre site ; "
+#~ "toutefois, une simple case à cocher peut être tout aussi efficace."
+
+#~ msgid "Modal/Popup - alternate style"
+#~ msgstr "Modal/Popup - style alternatif"
+
+#~ msgid "Show textarea?"
+#~ msgstr "Afficher la zone de texte ?"
+
+#~ msgid ""
+#~ "We noticed you chose to show a checkbox on product pages. Would you also "
+#~ "like to include a note field?"
+#~ msgstr ""
+#~ "Nous avons remarqué que vous avez choisi d'afficher une case à cocher sur "
+#~ "les pages de produits. Souhaitez-vous également inclure un champ de "
+#~ "notes ?"
+
+#~ msgid ""
+#~ " Note: if text limit is set to zero in General Options, this will not "
+#~ "show."
+#~ msgstr ""
+#~ " Remarque : si la limite de texte est fixée à zéro dans les Options "
+#~ "générales, cette option ne s'affichera pas."
+
+#~ msgid "Per-product wrap inside Cart"
+#~ msgstr "Emballage par produit dans le panier"
+
+#~ msgid ""
+#~ "Enables gift wrap inside the cart, per product. The customer will be able "
+#~ "to add giftwrapping to products during checkout, except for any excluded "
+#~ "product categories, or individually excluded products. Cart item wrap "
+#~ "will sit on its own line. Attribute wrap becomes an Woo product attribute "
+#~ "of the wrapped product."
+#~ msgstr ""
+#~ "Active l'emballage cadeau dans le panier, par produit. Le client pourra "
+#~ "ajouter un emballage cadeau aux produits lors du passage à la caisse, "
+#~ "sauf pour les catégories de produits exclues ou les produits exclus "
+#~ "individuellement. L'emballage de l'article du panier se trouve sur sa "
+#~ "propre ligne. L'attribut d'emballage devient un attribut de produit Woo "
+#~ "du produit emballé."
+
+#~ msgid "Yes - as a Cart Item"
+#~ msgstr "Oui - en tant qu'article du panier"
+
+#~ msgid ""
+#~ "If modal, when gift wrap links are clicked, they will open a separate, "
+#~ "floating window for customers to choose gift wrapping options. It can be "
+#~ "styled and might be a nicer option for your site."
+#~ msgstr ""
+#~ "S'il s'agit d'une fenêtre modale, lorsque les liens vers les emballages "
+#~ "cadeaux sont cliqués, ils ouvrent une fenêtre flottante distincte dans "
+#~ "laquelle les clients peuvent choisir les options d'emballage des cadeaux. "
+#~ "Cette option peut être stylisée et peut s'avérer plus intéressante pour "
+#~ "votre site."
+
+#~ msgid "Allow customer to remove wrap from product in cart?"
+#~ msgstr ""
+#~ "Permettre au client de retirer l'emballage du produit dans le panier ?"
+
+#~ msgid ""
+#~ "Remove gift wrapping attribute without deleting the whole wrapped product "
+#~ "from the cart."
+#~ msgstr ""
+#~ "Supprimez l'attribut \"emballage cadeau\" sans supprimer du panier "
+#~ "l'ensemble du produit emballé."
+
+#, php-format
+#~ msgid ""
+#~ "Easy string translations are available in the PLUS version of this "
+#~ "plugin. <a href=\"%s\" class=\"button btn\" rel=\"noopener\" "
+#~ "target=\"_blank\">Upgrade now</a>"
+#~ msgstr ""
+#~ "Les traductions faciles sont disponibles dans la version PLUS de ce "
+#~ "plugin. <a href=\"%s\" class=\"button btn\" rel=\"noopener\" "
+#~ "target=\"_blank\">Mettre à jour maintenant</a>"
+
+#~ msgid "Language Matters"
+#~ msgstr "La langue compte"
+
+#~ msgid ""
+#~ "Enter your adjustments or translations in the fields at right. Defaults "
+#~ "are shown at left."
+#~ msgstr ""
+#~ "Entrez vos ajustements ou traductions dans les champs à droite. Les "
+#~ "valeurs par défaut sont indiquées à gauche."
+
+#~ msgid ""
+#~ " To make text disappear on the front end, you may need to use CSS (e.g. "
+#~ "{style=\"display:none\"} ), to hide enclosing elements. To use HTML, you "
+#~ "will need to override included plugin template files."
+#~ msgstr ""
+#~ " Pour faire disparaître du texte sur le front-end, vous devrez peut-être "
+#~ "utiliser des feuilles de style en cascade (par exemple, {style=\"display:"
+#~ "none\"} ), pour masquer les éléments environnants. Pour utiliser le "
+#~ "langage HTML, vous devrez remplacer les fichiers modèles des plugins "
+#~ "inclus."
+
+#~ msgid "Gift wrap"
+#~ msgstr "Emballage cadeau"
+
+#~ msgid "Add Gift Wrap to Order:"
+#~ msgstr "Ajoutez un emballage cadeau à votre commande :"
+
+#~ msgid "Gift wrap added. Change?"
+#~ msgstr "Emballage cadeau ajouté. Une modification ?"
+
+#~ msgid "Cancel/Remove"
+#~ msgstr "Annuler/supprimer"
+
+#~ msgid "Remove gift wrap?"
+#~ msgstr "Enlever le papier cadeau ?"
+
+#~ msgid "Cancel gift wrap"
+#~ msgstr "Annuler le papier cadeau"
+
+#, php-format
+#~ msgid "Add gift wrapping for %s?"
+#~ msgstr "Ajouter un emballage cadeau pour %s ?"
+
+#, php-format
+#~ msgid "Add %s for %s?"
+#~ msgstr "Ajouter %s pour %s ?"
+
+#~ msgid "Sorry, this item cannot be gift wrapped."
+#~ msgstr ""
+#~ "Désolé, cet article ne peut pas être emballé dans un emballage cadeau."
+
+#~ msgid "For"
+#~ msgstr "Pour"
+
+#~ msgid "Note fee"
+#~ msgstr "Frais de note"
+
+#~ msgid "Only one gift wrap is allowed per item."
+#~ msgstr "Un seul emballage cadeau est autorisé par article."
+
+#~ msgid "Only one gift wrap is allowed per item purchase."
+#~ msgstr "Un seul emballage cadeau est autorisé par article acheté."
+
+#~ msgid "Gift wrap quantity cannot exceed quantity of your item."
+#~ msgstr ""
+#~ "La quantité de papier cadeau ne peut excéder la quantité de votre article."
+
+#~ msgid "You cannot have more gift wrap than items in cart."
+#~ msgstr ""
+#~ "Vous ne pouvez pas avoir plus de papier cadeau que d'articles dans votre "
+#~ "panier."
+
+#~ msgid "Use global settings"
+#~ msgstr "Utiliser les paramètres généraux"
+
+#~ msgid "Override global settings"
+#~ msgstr "Remplacer les paramètres globaux"
+
+#~ msgid "Yes, gift wrap this (override)"
+#~ msgstr "Oui, emballer le cadeau (remplacer)"
+
+#~ msgid "No, do not gift wrap (override)"
+#~ msgstr "Non, ne pas emballer les cadeaux (dérogation)"
+
+#~ msgid "Gift wrap category to use"
+#~ msgstr "Catégorie de papier cadeau à utiliser"
+
+#~ msgid ""
+#~ "Define the category which holds your gift wrap product(s). Default is the "
+#~ "global gift wrap settings category."
+#~ msgstr ""
+#~ "Définissez la catégorie qui contient vos produits de papier cadeau. Par "
+#~ "défaut, il s'agit de la catégorie globale des emballages cadeaux."
+
+#~ msgid "Gift wrap product to use"
+#~ msgstr "Produit d'emballage cadeau à utiliser"
+
+#~ msgid ""
+#~ "Define a specific wrap product for this product, using its product ID. "
+#~ "Overrides the category setting above."
+#~ msgstr ""
+#~ "Définit un produit d'emballage spécifique pour ce produit, en utilisant "
+#~ "son ID produit. Remplace le paramètre de catégorie ci-dessus."
+
+#~ msgid "Not set"
+#~ msgstr "Non configuré"
+
+#~ msgid ""
+#~ "Should gift wrap product thumbnail images be visible to customers on "
+#~ "product pages?"
+#~ msgstr ""
+#~ "Les vignettes des produits d'emballage cadeau doivent-elles être visibles "
+#~ "par les clients sur les pages produits ?"
+
+#~ msgid ""
+#~ "Create a unique WooCommerce product category for this/these gift wrap "
+#~ "product(s), and add the wrap product(s) to this category."
+#~ msgstr ""
+#~ "Créez une catégorie de produits WooCommerce unique pour ce(s) produit(s) "
+#~ "d'emballage cadeau, et ajoutez le(s) produit(s) d'emballage à cette "
+#~ "catégorie."
+
+#~ msgid "Set the category below. Then set other options."
+#~ msgstr ""
+#~ "Définissez la catégorie ci-dessous. Définissez ensuite les autres options."
+
+#~ msgid "Cart/Checkout Gift Wrapping Options"
+#~ msgstr "Options de papier cadeau pour le panier/commande"
+
+#~ msgid "Where to show gift wrap prompts"
+#~ msgstr "Où présenter les incitations à l'emballage des cadeaux"
+
+#~ msgid "Pop-up or slide-out?"
+#~ msgstr "Pop-up ou slide-out ?"
+
+#~ msgid "jQuery SlideToggle"
+#~ msgstr "jQuery SlideToggle"
+
+#~ msgid "Show gift wrap thumbs"
+#~ msgstr "Montrer les thumbnails du papier cadeau"
+
+#~ msgid "Per-product wrap on Cart and Checkout pages"
+#~ msgstr "Emballage par produit sur les pages du panier et de la caisse"
+
+#~ msgid "Yes, as a Product Attribute"
+#~ msgstr "Oui, en tant qu'attribut du produit"
+
+#~ msgid "Allow more than one wrap type per product?"
+#~ msgstr "Autoriser plus d'un type d'emballage par produit ?"
+
+#~ msgid ""
+#~ "Allows items in cart to have numerous wraps. Recommend default no "
+#~ "setting, but for custom/unusual plugin uses, this setting could come "
+#~ "handy."
+#~ msgstr ""
+#~ "Permet aux articles du panier d'avoir plusieurs enveloppes. Nous "
+#~ "recommandons de ne pas définir de paramètre par défaut, mais pour les "
+#~ "utilisations personnalisées ou inhabituelles du plugin, ce paramètre peut "
+#~ "s'avérer utile."
+
+#~ msgid "Hello. I'm Caroline."
+#~ msgstr "Bonjour. Je suis Caroline."
+
+#~ msgid ""
+#~ "Since October 2014, I have volunteered to create and maintain this "
+#~ "helpful and free plugin."
+#~ msgstr ""
+#~ "Depuis octobre 2014, je me suis porté volontaire pour créer et maintenir "
+#~ "ce plugin utile et gratuit."
+
+#, php-format
+#~ msgid ""
+#~ "If I have helped you, it would be awesome if you could leave <a "
+#~ "href=\"%s\" target=\"_blank\" rel=\"noopener\">a friendly review</a> or "
+#~ "make <a href=\"%s\" target=\"_blank\" rel=\"noopener\">a small donation</"
+#~ "a>."
+#~ msgstr ""
+#~ "Si je vous ai aidé, ce serait génial si vous pouviez laisser <a "
+#~ "href=\"%s\" target=\"_blank\" rel=\"noopener\">un commentaire amical</a> "
+#~ "ou faire un <a href=\"%s\" target=\"_blank\" rel=\"noopener\">petit don</"
+#~ "a>."
+
+#, php-format
+#~ msgid ""
+#~ " Even better - purchase the <strong><a href=\"%s\" target=\"_blank\" "
+#~ "rel=\"noopener\">PLUS version of Gift Wrapper</a></strong> by "
+#~ "<strong>Little Package</strong>! (not sold at woocommerce.com)"
+#~ msgstr ""
+#~ " Encore mieux - achetez la <strong><a href=\"%s\" target=\"_blank\" "
+#~ "rel=\"noopener\">Version PLUS de Gift Wrapper</a></strong> par "
+#~ "<strong>Little Package</strong>! (non vendu chez woocommerce.com)"
+
+#~ msgid ""
+#~ "Get priority email support, more gift wrapping options, like per-product "
+#~ "gift wrap, per cart item gift wrap in the cart, more built-in styles, and "
+#~ "easy language string translations."
+#~ msgstr ""
+#~ "Bénéficiez d'une assistance prioritaire par courrier électronique, d'un "
+#~ "plus grand nombre d'options d'emballage cadeau, comme l'emballage cadeau "
+#~ "par produit, l'emballage cadeau par article dans le panier, un plus grand "
+#~ "nombre de styles intégrés et des traductions faciles de chaînes de "
+#~ "langues."
+
+#~ msgid ""
+#~ "Gift Wrapper Plus is easily the best gift wrap plugin for WooCommerce!"
+#~ msgstr ""
+#~ "Gift Wrapper Plus est facilement le meilleur plugin d'emballage de "
+#~ "cadeaux pour WooCommerce !"
+
+#, php-format
+#~ msgid ""
+#~ "Need further help? <a href=\"%s\" target=\"_blank\" rel=\"noopener\">Use "
+#~ "the Wordpress support forums</a> for plugin support."
+#~ msgstr ""
+#~ "Vous avez besoin d'une aide supplémentaire ? <a href=\"%s\" "
+#~ "target=\"_blank\" rel=\"noopener\">Utilisez les forums de support de "
+#~ "Wordpress</a> pour le support des plugins."
+
+#, php-format
+#~ msgid ""
+#~ "<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Support "
+#~ "requests without enough detail</a> (WP/WC/Gift Wrapper/PHP version "
+#~ "numbers, how to reproduce problem, and what troubleshooting steps you "
+#~ "have already taken) will take longer to address. If you ask a question "
+#~ "already addressed in the Gift Wrapper WP support forum, it will also take "
+#~ "longer to get a reply."
+#~ msgstr ""
+#~ "Les<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">demandes "
+#~ "d'assistance qui ne sont pas suffisamment détaillées</a> (numéros de "
+#~ "version de WP/WC/Gift Wrapper/PHP, comment reproduire le problème et "
+#~ "quelles mesures de dépannage vous avez déjà prises) seront plus longues à "
+#~ "traiter. Si vous posez une question déjà traitée dans le forum "
+#~ "d'assistance WP de Gift Wrapper, il faudra également plus de temps pour "
+#~ "obtenir une réponse."
+
+#, fuzzy
+#~| msgid ""
+#~| "How many characters your customer can type when creating their own note "
+#~| "for gift wrapping. Defaults to 1000 characters; lower this number if you "
+#~| "want shorter notes from your customers."
+#~ msgid ""
+#~ "How many characters your customer can type when creating their own note "
+#~ "for giftwrapping. Defaults to 1000 characters; lower this number if you "
+#~ "want shorter notes from your customers. Set to 0 (zero) to hide the "
+#~ "textarea."
+#~ msgstr ""
+#~ "Nombre de caractères que votre client peut saisir lorsqu'il crée sa "
+#~ "propre note pour l'emballage du cadeau. La valeur par défaut est de 1000 "
+#~ "caractères ; diminuez ce nombre si vous souhaitez que vos clients "
+#~ "écrivent des notes plus courtes."
+
+#~ msgid "Thank you!"
+#~ msgstr "Merci!"
+
+#~ msgid "Then consider the options below."
+#~ msgstr "Alors envisager les options ci-dessous."
+
+#, php-format
+#~ msgid ""
+#~ "Questions? Read the <a href=\"%s\" target=\"_blank\">Gift Wrapper FAQ</"
+#~ "a>. Need further help? <a href=\"%s\" target=\"_blank\" "
+#~ "rel=\"noopener\">Use the Wordpress support forums for free plugin "
+#~ "support</a>.<br />Please include as many details as possible when "
+#~ "requesting help."
+#~ msgstr ""
+#~ "Questions? Lisez la <a href=\"%s\" target=\"_blank\">FAQ sur l’emballage "
+#~ "de cadeaux</a>. Besoin d’aide supplémentaire? <a href=\"%s\" "
+#~ "target=\"_blank\" rel=\"noopener\">Utilisez les forums de support "
+#~ "Wordpress pour le support plugin gratuit</a>.<br />Veuillez inclure "
+#~ "autant de détails que possible lors de la demande d’aide."
+
+#~ msgid "Turn off Gift Wrapper JavaScript"
+#~ msgstr "Désactiver JavaScript pour Gift Wrapper"
+
+#~ msgid "Check to dequeue Bootstrap JS"
+#~ msgstr "Vérifiez à dequeue Bootstrap JS"
+
+#~ msgid ""
+#~ "If you're having theme JavaScript conflicts with pop-up windows, or your "
+#~ "site already loads Bootstrap JS, try checking this box."
+#~ msgstr ""
+#~ "Si vous rencontrez des conflits JavaScript thématiques avec des fenêtres "
+#~ "contextuelles ou si votre site charge déjà Bootstrap JS, essayez de "
+#~ "cocher cette case."
+
+#~ msgid "Under Coupon Field in Cart"
+#~ msgstr "Sous champ Coupon dans panier"
+
+#~ msgid "Above Totals Field in Cart"
+#~ msgstr "Au-dessus de totaux champ de chariot"
+
+#~ msgid ""
+#~ "I've been working very hard on this helpful and free plugin for you since "
+#~ "October 2014.<br/>"
+#~ msgstr ""
+#~ "Je travaille très dur sur ce plugin utile et gratuit pour vous depuis "
+#~ "octobre 2014. <br/>"
+
+#~ msgid ""
+#~ "Please <a href=\"%s\" target=\"_blank\">leave a review</a> and/or <a "
+#~ "href=\"%s\" target=\"_blank\">make a small donation</a>.<br />"
+#~ msgstr ""
+#~ "S'il vous plaît <a href=\"%s\" target=\"_blank\">laisser un commentaire</"
+#~ "a> et/ou <a href=\"%s\" target=\"_blank\">faire un petit don</a> en "
+#~ "remerciement pour mon travail."
+
+#~ msgid "Gift Wrap Note"
+#~ msgstr "Ajouter Message d’enveloppe-cadeau :"
+
+#~ msgid "Does this plugin please customers & help you profit? "
+#~ msgstr ""
+#~ "Ce plugin fait-il des clients heureux et vous aide-t-il à en tirer profit?"
+
+#~ msgid ""
+#~ "Please <a href=\"%s\" target=\"_blank\">leave a review</a> and/or <a "
+#~ "href=\"%s\" target=\"_blank\">make a small donation</a> in thanks for my "
+#~ "work."
+#~ msgstr ""
+#~ "S'il vous plaît <a href=\"%s\" target=\"_blank\">laisser un commentaire</"
+#~ "a> et/ou <a href=\"%s\" target=\"_blank\">faire un petit don</a> en "
+#~ "remerciement pour mon travail."
+
+#~ msgid ""
+#~ "Please <a href=\"%s\" target=\"_blank\">leave a review</a> and/or <a "
+#~ "href=\"%s\" target=\"_blank\">make small donation</a> in thanks for my "
+#~ "work."
+#~ msgstr ""
+#~ "S'il vous plaît <a href=\"%s\" target=\"_blank\">laisser un commentaire</"
+#~ "a> et/ou <a href=\"%s\" target=\"_blank\">faire un petit don</a> en "
+#~ "remerciement pour mon travail."
+
+#~ msgid ""
+#~ "<strong>1.</strong> Start by <a href=\"%s\" target=\"_blank\">adding at "
+#~ "least one product</a> called \"Gift Wrapping\" or something similar.<br /"
+#~ "><strong>2.</strong> Create a unique product category for this/these gift "
+#~ "wrapping product(s), and add them to this category.<br /><strong>3.</"
+#~ "strong> Then consider the options below."
+#~ msgstr ""
+#~ "<strong>1.</strong> commencez par <a href=\"%s\" target=\"_blank\">Ajout "
+#~ "d'au moins un produit</a> appelé \"Gift Wrapping\" ou quelque chose de "
+#~ "similaire.<br><strong>2.</strong> créer une catégorie de produit unique "
+#~ "pour cette/ces produit (s)-cadeau et les ajouter à cette catégorie."
+#~ "<br><strong>3.</strong> alors envisager les options ci-dessous."
+
+#~ msgid "%s"
+#~ msgstr "%s"
